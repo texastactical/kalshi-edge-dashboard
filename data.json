@@ -1,0 +1,294 @@
+{
+  "generated_utc": "2026-09-09 03:40 UTC",
+  "summary": {
+    "total_bets": 30,
+    "settled": 0,
+    "open": 30,
+    "win_rate": null,
+    "pnl_dollars": 0.0,
+    "gate_settled_needed": 20
+  },
+  "by_source": [
+    {
+      "source": "weather_v1_calibrated",
+      "bets": 21,
+      "settled": 0,
+      "wins": 0,
+      "pnl": 0,
+      "pnl_dollars": 0.0
+    },
+    {
+      "source": "weather_v2_ensemble",
+      "bets": 4,
+      "settled": 0,
+      "wins": 0,
+      "pnl": 0,
+      "pnl_dollars": 0.0
+    },
+    {
+      "source": "mlb_edge/pythag-log5",
+      "bets": 4,
+      "settled": 0,
+      "wins": 0,
+      "pnl": 0,
+      "pnl_dollars": 0.0
+    },
+    {
+      "source": "mlb_edge/sharp:fanduel",
+      "bets": 1,
+      "settled": 0,
+      "wins": 0,
+      "pnl": 0,
+      "pnl_dollars": 0.0
+    }
+  ],
+  "cumulative_pnl": [],
+  "activity_per_day": [
+    {
+      "day": "2026-09-08",
+      "bets": 28
+    },
+    {
+      "day": "2026-09-09",
+      "bets": 2
+    }
+  ],
+  "clv": {
+    "n": 3,
+    "avg": -14.0,
+    "beat_rate": 0.333,
+    "values": [
+      -36.0,
+      7.0,
+      -13.0
+    ]
+  },
+  "calibration": [],
+  "recent_bets": [
+    {
+      "ticker": "KXMLBGAME-26SEP082140WSHSD-SD",
+      "side": "yes",
+      "entry": 43,
+      "source": "mlb_edge/pythag-log5",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXHIGHPHIL-26SEP09-B88.5",
+      "side": "no",
+      "entry": 43,
+      "source": "weather_v1_calibrated",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXHIGHAUS-26SEP09-T103",
+      "side": "yes",
+      "entry": 2,
+      "source": "weather_v1_calibrated",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXHIGHAUS-26SEP09-T96",
+      "side": "yes",
+      "entry": 3,
+      "source": "weather_v1_calibrated",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP09-T94",
+      "side": "yes",
+      "entry": 1,
+      "source": "weather_v1_calibrated",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP081905COLNYY-COL",
+      "side": "yes",
+      "entry": 25,
+      "source": "mlb_edge/sharp:fanduel",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP081845LAABOS-BOS",
+      "side": "yes",
+      "entry": 58,
+      "source": "mlb_edge/pythag-log5",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP081940CHCMIL-CHC",
+      "side": "yes",
+      "entry": 35,
+      "source": "mlb_edge/pythag-log5",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP082140TORATH-ATH",
+      "side": "yes",
+      "entry": 38,
+      "source": "mlb_edge/pythag-log5",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXHIGHPHIL-26SEP09-B86.5",
+      "side": "no",
+      "entry": 76,
+      "source": "weather_v2_ensemble",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXHIGHDEN-26SEP09-B82.5",
+      "side": "no",
+      "entry": 47,
+      "source": "weather_v2_ensemble",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXHIGHDEN-26SEP09-B78.5",
+      "side": "yes",
+      "entry": 5,
+      "source": "weather_v2_ensemble",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP09-B93.5",
+      "side": "no",
+      "entry": 90,
+      "source": "weather_v2_ensemble",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXHIGHAUS-26SEP09-B100.5",
+      "side": "yes",
+      "entry": 27,
+      "source": "weather_v1_calibrated",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXHIGHDEN-26SEP09-B80.5",
+      "side": "no",
+      "entry": 67,
+      "source": "weather_v1_calibrated",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXHIGHAUS-26SEP09-B98.5",
+      "side": "no",
+      "entry": 52,
+      "source": "weather_v1_calibrated",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXHIGHAUS-26SEP09-B102.5",
+      "side": "yes",
+      "entry": 4,
+      "source": "weather_v1_calibrated",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXHIGHPHIL-26SEP09-B90.5",
+      "side": "yes",
+      "entry": 12,
+      "source": "weather_v1_calibrated",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXHIGHPHIL-26SEP09-T91",
+      "side": "yes",
+      "entry": 2,
+      "source": "weather_v1_calibrated",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXHIGHDEN-26SEP09-B84.5",
+      "side": "yes",
+      "entry": 12,
+      "source": "weather_v1_calibrated",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP09-B91.5",
+      "side": "no",
+      "entry": 41,
+      "source": "weather_v1_calibrated",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP09-B89.5",
+      "side": "yes",
+      "entry": 28,
+      "source": "weather_v1_calibrated",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP09-B87.5",
+      "side": "yes",
+      "entry": 7,
+      "source": "weather_v1_calibrated",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXHIGHCHI-26SEP09-B82.5",
+      "side": "yes",
+      "entry": 28,
+      "source": "weather_v1_calibrated",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXHIGHCHI-26SEP09-B84.5",
+      "side": "yes",
+      "entry": 7,
+      "source": "weather_v1_calibrated",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    }
+  ]
+}
