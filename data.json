@@ -1,9 +1,9 @@
 {
-  "generated_utc": "2026-09-10 03:25 UTC",
+  "generated_utc": "2026-09-11 03:24 UTC",
   "summary": {
-    "total_bets": 37,
+    "total_bets": 42,
     "settled": 0,
-    "open": 37,
+    "open": 42,
     "win_rate": null,
     "pnl_dollars": 0.0,
     "gate_settled_needed": 20
@@ -19,7 +19,7 @@
     },
     {
       "source": "mlb_edge/pythag-log5",
-      "bets": 11,
+      "bets": 16,
       "settled": 0,
       "wins": 0,
       "pnl": 0,
@@ -55,17 +55,46 @@
     {
       "day": "2026-09-10",
       "bets": 4
+    },
+    {
+      "day": "2026-09-11",
+      "bets": 5
     }
   ],
   "clv": {
-    "n": 8,
-    "avg": -5.38,
-    "beat_rate": 0.375,
+    "n": 33,
+    "avg": -3.18,
+    "beat_rate": 0.394,
     "values": [
+      -36.0,
+      -11.0,
+      59.0,
+      -25.0,
+      -5.0,
+      30.0,
+      -41.0,
+      -38.0,
+      70.0,
+      8.0,
+      -10.0,
+      6.0,
+      0.0,
+      -14.0,
+      -1.0,
+      -45.0,
+      67.0,
+      -88.0,
+      25.0,
+      -1.0,
+      -61.0,
       -36.0,
       7.0,
       -34.0,
       -13.0,
+      2.0,
+      0.0,
+      1.0,
+      46.0,
       47.0,
       51.0,
       -32.0,
@@ -74,6 +103,51 @@
   },
   "calibration": [],
   "recent_bets": [
+    {
+      "ticker": "KXMLBGAME-26SEP121910CINMIL-MIL",
+      "side": "yes",
+      "entry": 62,
+      "source": "mlb_edge/pythag-log5",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP121915PHIATL-ATL",
+      "side": "yes",
+      "entry": 50,
+      "source": "mlb_edge/pythag-log5",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP121610LADMIA-MIA",
+      "side": "yes",
+      "entry": 34,
+      "source": "mlb_edge/pythag-log5",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP121310COLDET-DET",
+      "side": "yes",
+      "entry": 57,
+      "source": "mlb_edge/pythag-log5",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP121420PITCHC-CHC",
+      "side": "yes",
+      "entry": 52,
+      "source": "mlb_edge/pythag-log5",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
     {
       "ticker": "KXMLBGAME-26SEP111905NYMNYY-NYY",
       "side": "yes",
@@ -250,51 +324,6 @@
       "side": "no",
       "entry": 90,
       "source": "weather_v2_ensemble",
-      "status": "open",
-      "result": null,
-      "pnl": null
-    },
-    {
-      "ticker": "KXHIGHAUS-26SEP09-B100.5",
-      "side": "yes",
-      "entry": 27,
-      "source": "weather_v1_calibrated",
-      "status": "open",
-      "result": null,
-      "pnl": null
-    },
-    {
-      "ticker": "KXHIGHDEN-26SEP09-B80.5",
-      "side": "no",
-      "entry": 67,
-      "source": "weather_v1_calibrated",
-      "status": "open",
-      "result": null,
-      "pnl": null
-    },
-    {
-      "ticker": "KXHIGHAUS-26SEP09-B98.5",
-      "side": "no",
-      "entry": 52,
-      "source": "weather_v1_calibrated",
-      "status": "open",
-      "result": null,
-      "pnl": null
-    },
-    {
-      "ticker": "KXHIGHAUS-26SEP09-B102.5",
-      "side": "yes",
-      "entry": 4,
-      "source": "weather_v1_calibrated",
-      "status": "open",
-      "result": null,
-      "pnl": null
-    },
-    {
-      "ticker": "KXHIGHPHIL-26SEP09-B90.5",
-      "side": "yes",
-      "entry": 12,
-      "source": "weather_v1_calibrated",
       "status": "open",
       "result": null,
       "pnl": null
