@@ -1,9 +1,9 @@
 {
-  "generated_utc": "2026-09-11 03:24 UTC",
+  "generated_utc": "2026-09-12 03:23 UTC",
   "summary": {
-    "total_bets": 42,
+    "total_bets": 45,
     "settled": 0,
-    "open": 42,
+    "open": 45,
     "win_rate": null,
     "pnl_dollars": 0.0,
     "gate_settled_needed": 20
@@ -19,7 +19,7 @@
     },
     {
       "source": "mlb_edge/pythag-log5",
-      "bets": 16,
+      "bets": 19,
       "settled": 0,
       "wins": 0,
       "pnl": 0,
@@ -59,12 +59,16 @@
     {
       "day": "2026-09-11",
       "bets": 5
+    },
+    {
+      "day": "2026-09-12",
+      "bets": 3
     }
   ],
   "clv": {
-    "n": 33,
-    "avg": -3.18,
-    "beat_rate": 0.394,
+    "n": 36,
+    "avg": -2.17,
+    "beat_rate": 0.417,
     "values": [
       -36.0,
       -11.0,
@@ -98,11 +102,41 @@
       47.0,
       51.0,
       -32.0,
-      -33.0
+      -33.0,
+      35.0,
+      -24.0,
+      16.0
     ]
   },
   "calibration": [],
   "recent_bets": [
+    {
+      "ticker": "KXMLBGAME-26SEP131410CINMIL-MIL",
+      "side": "yes",
+      "entry": 59,
+      "source": "mlb_edge/pythag-log5",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP131335LAAWSH-WSH",
+      "side": "yes",
+      "entry": 51,
+      "source": "mlb_edge/pythag-log5",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP131210COLDET-DET",
+      "side": "yes",
+      "entry": 59,
+      "source": "mlb_edge/pythag-log5",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
     {
       "ticker": "KXMLBGAME-26SEP121910CINMIL-MIL",
       "side": "yes",
@@ -296,33 +330,6 @@
       "ticker": "KXHIGHPHIL-26SEP09-B86.5",
       "side": "no",
       "entry": 76,
-      "source": "weather_v2_ensemble",
-      "status": "open",
-      "result": null,
-      "pnl": null
-    },
-    {
-      "ticker": "KXHIGHDEN-26SEP09-B82.5",
-      "side": "no",
-      "entry": 47,
-      "source": "weather_v2_ensemble",
-      "status": "open",
-      "result": null,
-      "pnl": null
-    },
-    {
-      "ticker": "KXHIGHDEN-26SEP09-B78.5",
-      "side": "yes",
-      "entry": 5,
-      "source": "weather_v2_ensemble",
-      "status": "open",
-      "result": null,
-      "pnl": null
-    },
-    {
-      "ticker": "KXHIGHMIA-26SEP09-B93.5",
-      "side": "no",
-      "entry": 90,
       "source": "weather_v2_ensemble",
       "status": "open",
       "result": null,
