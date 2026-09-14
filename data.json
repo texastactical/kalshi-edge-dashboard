@@ -1,9 +1,9 @@
 {
-  "generated_utc": "2026-09-13 03:24 UTC",
+  "generated_utc": "2026-09-14 03:25 UTC",
   "summary": {
-    "total_bets": 45,
+    "total_bets": 46,
     "settled": 0,
-    "open": 45,
+    "open": 46,
     "win_rate": null,
     "pnl_dollars": 0.0,
     "gate_settled_needed": 20
@@ -19,7 +19,7 @@
     },
     {
       "source": "mlb_edge/pythag-log5",
-      "bets": 19,
+      "bets": 20,
       "settled": 0,
       "wins": 0,
       "pnl": 0,
@@ -63,12 +63,16 @@
     {
       "day": "2026-09-12",
       "bets": 3
+    },
+    {
+      "day": "2026-09-14",
+      "bets": 1
     }
   ],
   "clv": {
-    "n": 42,
-    "avg": 0.83,
-    "beat_rate": 0.476,
+    "n": 45,
+    "avg": 2.07,
+    "beat_rate": 0.489,
     "values": [
       -36.0,
       -11.0,
@@ -111,11 +115,23 @@
       47.0,
       34.0,
       6.0,
-      -20.0
+      -20.0,
+      -14.0,
+      39.0,
+      33.0
     ]
   },
   "calibration": [],
   "recent_bets": [
+    {
+      "ticker": "KXMLBGAME-26SEP151845PHIWSH-WSH",
+      "side": "yes",
+      "entry": 38,
+      "source": "mlb_edge/pythag-log5",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
     {
       "ticker": "KXMLBGAME-26SEP131410CINMIL-MIL",
       "side": "yes",
@@ -328,15 +344,6 @@
       "side": "yes",
       "entry": 38,
       "source": "mlb_edge/pythag-log5",
-      "status": "open",
-      "result": null,
-      "pnl": null
-    },
-    {
-      "ticker": "KXHIGHPHIL-26SEP09-B86.5",
-      "side": "no",
-      "entry": 76,
-      "source": "weather_v2_ensemble",
       "status": "open",
       "result": null,
       "pnl": null
