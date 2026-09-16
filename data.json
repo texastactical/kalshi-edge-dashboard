@@ -1,24 +1,24 @@
 {
-  "generated_utc": "2026-09-15 03:26 UTC",
+  "generated_utc": "2026-09-16 03:24 UTC",
   "summary": {
-    "total_bets": 47,
+    "total_bets": 48,
     "settled": 0,
-    "open": 47,
+    "open": 48,
     "win_rate": null,
     "pnl_dollars": 0.0,
     "gate_settled_needed": 20
   },
   "by_source": [
     {
-      "source": "weather_v1_calibrated",
-      "bets": 21,
+      "source": "mlb_edge/pythag-log5",
+      "bets": 22,
       "settled": 0,
       "wins": 0,
       "pnl": 0,
       "pnl_dollars": 0.0
     },
     {
-      "source": "mlb_edge/pythag-log5",
+      "source": "weather_v1_calibrated",
       "bets": 21,
       "settled": 0,
       "wins": 0,
@@ -71,12 +71,16 @@
     {
       "day": "2026-09-15",
       "bets": 1
+    },
+    {
+      "day": "2026-09-16",
+      "bets": 1
     }
   ],
   "clv": {
-    "n": 45,
-    "avg": 2.07,
-    "beat_rate": 0.489,
+    "n": 46,
+    "avg": 3.26,
+    "beat_rate": 0.5,
     "values": [
       -36.0,
       -11.0,
@@ -122,11 +126,21 @@
       -20.0,
       -14.0,
       39.0,
-      33.0
+      33.0,
+      57.0
     ]
   },
   "calibration": [],
   "recent_bets": [
+    {
+      "ticker": "KXMLBGAME-26SEP171915PHINYM-PHI",
+      "side": "yes",
+      "entry": 46,
+      "source": "mlb_edge/pythag-log5",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
     {
       "ticker": "KXMLBGAME-26SEP162005BOSTEX-BOS",
       "side": "yes",
@@ -338,15 +352,6 @@
       "ticker": "KXMLBGAME-26SEP081845LAABOS-BOS",
       "side": "yes",
       "entry": 58,
-      "source": "mlb_edge/pythag-log5",
-      "status": "open",
-      "result": null,
-      "pnl": null
-    },
-    {
-      "ticker": "KXMLBGAME-26SEP081940CHCMIL-CHC",
-      "side": "yes",
-      "entry": 35,
       "source": "mlb_edge/pythag-log5",
       "status": "open",
       "result": null,
