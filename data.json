@@ -1,9 +1,9 @@
 {
-  "generated_utc": "2026-09-16 03:24 UTC",
+  "generated_utc": "2026-09-17 03:24 UTC",
   "summary": {
-    "total_bets": 48,
+    "total_bets": 50,
     "settled": 0,
-    "open": 48,
+    "open": 50,
     "win_rate": null,
     "pnl_dollars": 0.0,
     "gate_settled_needed": 20
@@ -11,7 +11,7 @@
   "by_source": [
     {
       "source": "mlb_edge/pythag-log5",
-      "bets": 22,
+      "bets": 24,
       "settled": 0,
       "wins": 0,
       "pnl": 0,
@@ -75,12 +75,16 @@
     {
       "day": "2026-09-16",
       "bets": 1
+    },
+    {
+      "day": "2026-09-17",
+      "bets": 2
     }
   ],
   "clv": {
-    "n": 46,
-    "avg": 3.26,
-    "beat_rate": 0.5,
+    "n": 47,
+    "avg": 3.32,
+    "beat_rate": 0.511,
     "values": [
       -36.0,
       -11.0,
@@ -127,11 +131,30 @@
       -14.0,
       39.0,
       33.0,
-      57.0
+      57.0,
+      6.0
     ]
   },
   "calibration": [],
   "recent_bets": [
+    {
+      "ticker": "KXMLBGAME-26SEP182140MIASD-MIA",
+      "side": "yes",
+      "entry": 35,
+      "source": "mlb_edge/pythag-log5",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP182005TORTEX-TEX",
+      "side": "yes",
+      "entry": 46,
+      "source": "mlb_edge/pythag-log5",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
     {
       "ticker": "KXMLBGAME-26SEP171915PHINYM-PHI",
       "side": "yes",
@@ -335,24 +358,6 @@
       "side": "yes",
       "entry": 1,
       "source": "weather_v1_calibrated",
-      "status": "open",
-      "result": null,
-      "pnl": null
-    },
-    {
-      "ticker": "KXMLBGAME-26SEP081905COLNYY-COL",
-      "side": "yes",
-      "entry": 25,
-      "source": "mlb_edge/sharp:fanduel",
-      "status": "open",
-      "result": null,
-      "pnl": null
-    },
-    {
-      "ticker": "KXMLBGAME-26SEP081845LAABOS-BOS",
-      "side": "yes",
-      "entry": 58,
-      "source": "mlb_edge/pythag-log5",
       "status": "open",
       "result": null,
       "pnl": null
