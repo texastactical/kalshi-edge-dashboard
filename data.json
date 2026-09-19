@@ -1,9 +1,9 @@
 {
-  "generated_utc": "2026-09-18 03:23 UTC",
+  "generated_utc": "2026-09-19 03:23 UTC",
   "summary": {
-    "total_bets": 52,
+    "total_bets": 54,
     "settled": 0,
-    "open": 52,
+    "open": 54,
     "win_rate": null,
     "pnl_dollars": 0.0,
     "gate_settled_needed": 20
@@ -11,7 +11,7 @@
   "by_source": [
     {
       "source": "mlb_edge/pythag-log5",
-      "bets": 26,
+      "bets": 28,
       "settled": 0,
       "wins": 0,
       "pnl": 0,
@@ -83,12 +83,16 @@
     {
       "day": "2026-09-18",
       "bets": 2
+    },
+    {
+      "day": "2026-09-19",
+      "bets": 2
     }
   ],
   "clv": {
-    "n": 48,
-    "avg": 3.79,
-    "beat_rate": 0.521,
+    "n": 49,
+    "avg": 4.65,
+    "beat_rate": 0.531,
     "values": [
       -36.0,
       -11.0,
@@ -137,11 +141,30 @@
       33.0,
       57.0,
       6.0,
-      26.0
+      26.0,
+      46.0
     ]
   },
   "calibration": [],
   "recent_bets": [
+    {
+      "ticker": "KXMLBGAME-26SEP201410ATLHOU-ATL",
+      "side": "yes",
+      "entry": 48,
+      "source": "mlb_edge/pythag-log5",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP201335KCPIT-PIT",
+      "side": "yes",
+      "entry": 55,
+      "source": "mlb_edge/pythag-log5",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
     {
       "ticker": "KXMLBGAME-26SEP191910ATLHOU-ATL",
       "side": "yes",
@@ -345,24 +368,6 @@
       "side": "yes",
       "entry": 43,
       "source": "mlb_edge/pythag-log5",
-      "status": "open",
-      "result": null,
-      "pnl": null
-    },
-    {
-      "ticker": "KXHIGHPHIL-26SEP09-B88.5",
-      "side": "no",
-      "entry": 43,
-      "source": "weather_v1_calibrated",
-      "status": "open",
-      "result": null,
-      "pnl": null
-    },
-    {
-      "ticker": "KXHIGHAUS-26SEP09-T103",
-      "side": "yes",
-      "entry": 2,
-      "source": "weather_v1_calibrated",
       "status": "open",
       "result": null,
       "pnl": null
