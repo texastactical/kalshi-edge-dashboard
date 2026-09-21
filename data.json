@@ -1,9 +1,9 @@
 {
-  "generated_utc": "2026-09-20 03:23 UTC",
+  "generated_utc": "2026-09-21 03:24 UTC",
   "summary": {
-    "total_bets": 54,
+    "total_bets": 56,
     "settled": 0,
-    "open": 54,
+    "open": 56,
     "win_rate": null,
     "pnl_dollars": 0.0,
     "gate_settled_needed": 20
@@ -11,7 +11,7 @@
   "by_source": [
     {
       "source": "mlb_edge/pythag-log5",
-      "bets": 28,
+      "bets": 30,
       "settled": 0,
       "wins": 0,
       "pnl": 0,
@@ -87,11 +87,15 @@
     {
       "day": "2026-09-19",
       "bets": 2
+    },
+    {
+      "day": "2026-09-21",
+      "bets": 2
     }
   ],
   "clv": {
-    "n": 52,
-    "avg": 3.21,
+    "n": 54,
+    "avg": 3.44,
     "beat_rate": 0.519,
     "values": [
       -36.0,
@@ -145,11 +149,31 @@
       -33.0,
       46.0,
       2.0,
-      -30.0
+      -30.0,
+      38.0,
+      -19.0
     ]
   },
   "calibration": [],
   "recent_bets": [
+    {
+      "ticker": "KXMLBGAME-26SEP221840MILPHI-MIL",
+      "side": "yes",
+      "entry": 47,
+      "source": "mlb_edge/pythag-log5",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP221915CINATL-ATL",
+      "side": "yes",
+      "entry": 62,
+      "source": "mlb_edge/pythag-log5",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
     {
       "ticker": "KXMLBGAME-26SEP201410ATLHOU-ATL",
       "side": "yes",
@@ -352,24 +376,6 @@
       "ticker": "KXMLBGAME-26SEP091610TEXSEA-TEX",
       "side": "yes",
       "entry": 41,
-      "source": "mlb_edge/pythag-log5",
-      "status": "open",
-      "result": null,
-      "pnl": null
-    },
-    {
-      "ticker": "KXMLBGAME-26SEP091610WSHSD-WSH",
-      "side": "yes",
-      "entry": 37,
-      "source": "mlb_edge/pythag-log5",
-      "status": "open",
-      "result": null,
-      "pnl": null
-    },
-    {
-      "ticker": "KXMLBGAME-26SEP082140WSHSD-SD",
-      "side": "yes",
-      "entry": 43,
       "source": "mlb_edge/pythag-log5",
       "status": "open",
       "result": null,
