@@ -1,9 +1,9 @@
 {
-  "generated_utc": "2026-09-24 03:24 UTC",
+  "generated_utc": "2026-09-25 03:22 UTC",
   "summary": {
-    "total_bets": 60,
+    "total_bets": 63,
     "settled": 0,
-    "open": 60,
+    "open": 63,
     "win_rate": null,
     "pnl_dollars": 0.0,
     "gate_settled_needed": 20
@@ -11,7 +11,7 @@
   "by_source": [
     {
       "source": "mlb_edge/pythag-log5",
-      "bets": 34,
+      "bets": 37,
       "settled": 0,
       "wins": 0,
       "pnl": 0,
@@ -95,6 +95,10 @@
     {
       "day": "2026-09-24",
       "bets": 4
+    },
+    {
+      "day": "2026-09-25",
+      "bets": 3
     }
   ],
   "clv": {
@@ -162,6 +166,33 @@
   },
   "calibration": [],
   "recent_bets": [
+    {
+      "ticker": "KXMLBGAME-26SEP261605NYMWSH-WSH",
+      "side": "yes",
+      "entry": 44,
+      "source": "mlb_edge/pythag-log5",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP261605LADSF-SF",
+      "side": "yes",
+      "entry": 26,
+      "source": "mlb_edge/pythag-log5",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP261310PITDET-DET",
+      "side": "yes",
+      "entry": 45,
+      "source": "mlb_edge/pythag-log5",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
     {
       "ticker": "KXMLBGAME-26SEP251845NYMWSH-WSH",
       "side": "yes",
@@ -355,33 +386,6 @@
       "ticker": "KXMLBGAME-26SEP121310COLDET-DET",
       "side": "yes",
       "entry": 57,
-      "source": "mlb_edge/pythag-log5",
-      "status": "open",
-      "result": null,
-      "pnl": null
-    },
-    {
-      "ticker": "KXMLBGAME-26SEP121420PITCHC-CHC",
-      "side": "yes",
-      "entry": 52,
-      "source": "mlb_edge/pythag-log5",
-      "status": "open",
-      "result": null,
-      "pnl": null
-    },
-    {
-      "ticker": "KXMLBGAME-26SEP111905NYMNYY-NYY",
-      "side": "yes",
-      "entry": 57,
-      "source": "mlb_edge/pythag-log5",
-      "status": "open",
-      "result": null,
-      "pnl": null
-    },
-    {
-      "ticker": "KXMLBGAME-26SEP112140SEAATH-ATH",
-      "side": "yes",
-      "entry": 40,
       "source": "mlb_edge/pythag-log5",
       "status": "open",
       "result": null,
