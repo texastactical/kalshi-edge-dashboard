@@ -1,9 +1,9 @@
 {
-  "generated_utc": "2026-09-28 09:41 UTC",
+  "generated_utc": "2026-09-29 09:45 UTC",
   "summary": {
-    "total_bets": 64,
+    "total_bets": 66,
     "settled": 0,
-    "open": 64,
+    "open": 66,
     "win_rate": null,
     "pnl_dollars": 0.0,
     "gate_settled_needed": 20
@@ -11,7 +11,7 @@
   "by_source": [
     {
       "source": "mlb_edge/pythag-log5",
-      "bets": 38,
+      "bets": 40,
       "settled": 0,
       "wins": 0,
       "pnl": 0,
@@ -103,6 +103,10 @@
     {
       "day": "2026-09-26",
       "bets": 1
+    },
+    {
+      "day": "2026-09-29",
+      "bets": 2
     }
   ],
   "clv": {
@@ -178,6 +182,24 @@
   },
   "calibration": [],
   "recent_bets": [
+    {
+      "ticker": "KXMLBGAME-26SEP301700CWSHOU-CWS",
+      "side": "yes",
+      "entry": 37,
+      "source": "mlb_edge/pythag-log5",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP301400PHIATL-ATL",
+      "side": "yes",
+      "entry": 51,
+      "source": "mlb_edge/pythag-log5",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
     {
       "ticker": "KXMLBGAME-26SEP271520BALNYY-NYY",
       "side": "yes",
@@ -380,24 +402,6 @@
       "ticker": "KXMLBGAME-26SEP121910CINMIL-MIL",
       "side": "yes",
       "entry": 62,
-      "source": "mlb_edge/pythag-log5",
-      "status": "open",
-      "result": null,
-      "pnl": null
-    },
-    {
-      "ticker": "KXMLBGAME-26SEP121915PHIATL-ATL",
-      "side": "yes",
-      "entry": 50,
-      "source": "mlb_edge/pythag-log5",
-      "status": "open",
-      "result": null,
-      "pnl": null
-    },
-    {
-      "ticker": "KXMLBGAME-26SEP121610LADMIA-MIA",
-      "side": "yes",
-      "entry": 34,
       "source": "mlb_edge/pythag-log5",
       "status": "open",
       "result": null,
