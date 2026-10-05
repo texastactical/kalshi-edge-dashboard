@@ -1,9 +1,9 @@
 {
-  "generated_utc": "2026-10-04 09:43 UTC",
+  "generated_utc": "2026-10-05 10:20 UTC",
   "summary": {
-    "total_bets": 69,
+    "total_bets": 70,
     "settled": 0,
-    "open": 69,
+    "open": 70,
     "win_rate": null,
     "pnl_dollars": 0.0,
     "gate_settled_needed": 20
@@ -11,7 +11,7 @@
   "by_source": [
     {
       "source": "mlb_edge/pythag-log5",
-      "bets": 43,
+      "bets": 44,
       "settled": 0,
       "wins": 0,
       "pnl": 0,
@@ -115,12 +115,16 @@
     {
       "day": "2026-10-04",
       "bets": 2
+    },
+    {
+      "day": "2026-10-05",
+      "bets": 1
     }
   ],
   "clv": {
-    "n": 66,
-    "avg": 2.05,
-    "beat_rate": 0.485,
+    "n": 67,
+    "avg": 1.36,
+    "beat_rate": 0.478,
     "values": [
       -36.0,
       -11.0,
@@ -187,11 +191,21 @@
       -38.0,
       -1.0,
       61.0,
-      0.0
+      0.0,
+      -44.0
     ]
   },
   "calibration": [],
   "recent_bets": [
+    {
+      "ticker": "KXMLBGAME-26OCT062130MILSD-MIL",
+      "side": "yes",
+      "entry": 45,
+      "source": "mlb_edge/pythag-log5",
+      "status": "open",
+      "result": null,
+      "pnl": null
+    },
     {
       "ticker": "KXMLBGAME-26OCT051700CWSCLE-CWS",
       "side": "yes",
@@ -403,15 +417,6 @@
       "ticker": "KXMLBGAME-26SEP151845PHIWSH-WSH",
       "side": "yes",
       "entry": 38,
-      "source": "mlb_edge/pythag-log5",
-      "status": "open",
-      "result": null,
-      "pnl": null
-    },
-    {
-      "ticker": "KXMLBGAME-26SEP131410CINMIL-MIL",
-      "side": "yes",
-      "entry": 59,
       "source": "mlb_edge/pythag-log5",
       "status": "open",
       "result": null,
